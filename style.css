@@ -52,3 +52,10 @@ footer {
 .skills-list li {
     margin-bottom: 10px; /* Adds space between each list item */
 }
+
+.contact-icon {
+    width: 20px;
+    height: 20px;
+    margin-left: 8px;  /* Adjusts the spacing between the text and the icon */
+    vertical-align: middle; /* Aligns the icon with the text */
+}
