@@ -43,3 +43,12 @@ footer {
     bottom: 0;
     width: 100%;
 }
+
+.skills-list {
+    list-style-type: none; /* Removes bullet points */
+    padding-left: 0; /* Removes default left padding */
+}
+
+.skills-list li {
+    margin-bottom: 10px; /* Adds space between each list item */
+}
