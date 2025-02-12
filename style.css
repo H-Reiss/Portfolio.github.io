@@ -22,8 +22,8 @@ header {
     left: 50%;
     transform: translate(-50%, -50%);
     border-radius: 50%; /* Makes it circular */
-    width: 100px; /* Adjust the size of the image */
-    height: 100px; /* Keep it square for circular shape */
+    width: 300px; /* Adjust the size of the image */
+    height: 300px; /* Keep it square for circular shape */
     object-fit: cover; /* Ensures image doesn't stretch */
 }
 
