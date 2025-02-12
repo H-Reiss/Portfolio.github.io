@@ -21,10 +21,10 @@ header {
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
-    border-radius: 50%;
-    width: 20px; /* Smaller size */
-    height: 20px; /* Smaller size */
-    object-fit: cover;
+    border-radius: 50%; /* Makes it circular */
+    width: 100px; /* Adjust the size of the image */
+    height: 100px; /* Keep it square for circular shape */
+    object-fit: cover; /* Ensures image doesn't stretch */
 }
 
 h1, h2, nav {
