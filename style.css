@@ -22,8 +22,8 @@ header {
     left: 50%;
     transform: translate(-50%, -50%);
     border-radius: 50%;
-    width: 40px; /* Smaller size */
-    height: 40px; /* Smaller size */
+    width: 20px; /* Smaller size */
+    height: 20px; /* Smaller size */
     object-fit: cover;
 }
 
