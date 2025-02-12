@@ -11,9 +11,10 @@ body {
 header {
     background-color: #989899;
     color: white;
-    padding: 20px;
+    padding: 40px; /* Increase padding for more space */
     text-align: center;
     position: relative;
+    height: 300px; /* Ensure the header has enough height for the image */
 }
 
 .profile-img {
@@ -22,9 +23,10 @@ header {
     left: 50%;
     transform: translate(-50%, -50%);
     border-radius: 50%; /* Makes it circular */
-    width: 300px; /* Adjust the size of the image */
-    height: 300px; /* Keep it square for circular shape */
+    width: 150px; /* Adjust the size of the image */
+    height: 150px; /* Keep it square for circular shape */
     object-fit: cover; /* Ensures image doesn't stretch */
+    border: 3px solid white; /* Optional: adds a nice border around the image */
 }
 
 h1, h2, nav {
