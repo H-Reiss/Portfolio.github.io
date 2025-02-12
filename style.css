@@ -17,18 +17,6 @@ header {
     height: 300px; /* Ensure the header has enough height for the image */
 }
 
-.profile-img {
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    border-radius: 50%; /* Makes it circular */
-    width: 150px; /* Adjust the size of the image */
-    height: 150px; /* Keep it square for circular shape */
-    object-fit: cover; /* Ensures image doesn't stretch */
-    border: 3px solid white; /* Optional: adds a nice border around the image */
-}
-
 h1, h2, nav {
     position: relative;
     z-index: 1;
